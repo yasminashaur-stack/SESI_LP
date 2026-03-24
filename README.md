@@ -2,6 +2,9 @@
 Disciplina de Lógica de Programação do SESI 2026
 
 # Git bash / Comandos e explicações
+-`Mkdir`Cria uma pasta
+
+-`Clear`Limpar tela
 
 -`git config --global user.name "seu nome"` define o nome do usuário no Git
 
