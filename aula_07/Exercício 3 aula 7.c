@@ -6,7 +6,14 @@ int main () {
 	int resultado = 0;
 	int opcao;
 	do {
-		printf("\nDigite uma opção:\n 1-Somar 2-Dividir 3-Multiplicar 4-Subtrair 0-Sair\n");
+		printf("\nDigite uma opção:");
+		printf("\n________________________\n");
+		printf("|* 1 - SOMAR            |\n");
+		printf("|* 2 - DIVIDIR          |\n");
+		printf("|* 3 - MULTIPLICAR      |\n");
+		printf("|* 4 - SUBTRAIR         |\n");
+		printf("|* 0 - SAIR             |\n");
+		printf("|_______________________|\n");
 		scanf("%i", &opcao);
 
 		if(opcao >= 1 && opcao <=4) {
@@ -34,5 +41,5 @@ int main () {
 		}
 	} while(opcao != 0);
 	return 0;
-	
+
 }
